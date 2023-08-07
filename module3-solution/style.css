@@ -1,1 +1,43 @@
- 
+body {
+    font-size: 16px;
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+/* Header Styles */
+#header-nav {
+    background-color: gray;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.navbar-text {
+    color: black;
+}
+
+/* Menu Styles */
+#our-menu {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Section Styles */
+#chicken,
+#beef,
+#sushi {
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+}
+
+#subheading {
+    text-align: center;
+}
+
+#paragraph1, 
+#paragraph2, 
+#paragraph3 {
+    font-style: italic;
+    font-weight: bold;
+}
+
