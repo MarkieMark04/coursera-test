@@ -1,93 +1,84 @@
- <!DOCTYPE html>
- <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Assignment Solution for Module 3</title>
+        <title>Module 3 Solution</title>
         <link rel="stylesheet" href="bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
+    <!--Nav Heading-->
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header pull-left visible-md visible-lg">
+                    <h1 class="h1">Food, LLC</h1>
+                </div>
 
-    <body>
-        <header>
-            <nav id="header-nav" class="navbar navbar-default">
-                <div class="container">
-                    <div class="nav-header">
-                
-                <div class="navbar-text">
-                    <h1>Food, LLC</h1>
-            
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                
-                      
-        </header>
-
-        <div id="our-menu">
-            <h2>Our Menu</h2>
+                <div class="navbar-icon custom-button">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
             </div>
-        
-        <div id="chicken">
-            <span id="subheading"> <h3>Chicken</h3></span>
-            <span id="paragraph1">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing 
-                    elit. Sed nonummy eleifend velit, quis luctus leo 
-                    fringilla vel. Fusce pulvinar, augue nec fermentum 
-                    tincidunt, erat arcu sagittis velit, quis commodo 
-                    elit enim ac neque. Nullam hendrerit orci ut nisi 
-                    cursus, nec malesuada arcu tempor. Vivamus nec elit 
-                    eu nunc volutpat feugiat. Duis fermentum, erat quis 
-                    egestas malesuada, est quam pharetra mi, eu consequat 
-                    eros lectus nec sem. Vestibulum ante ipsum primis in 
-                    faucibus orci luctus et ultrices posuere cubilia 
-                    Curae; Pellentesque ut quam nec libero commodo aliquet 
-                    eu a nulla. Nullam eget feugiat eros.
-                </p>
-            </span>
+    </header>
 
-        </div>
+    <!--Nav Menu Section-->
+    <div id="navbarToggleExternalContent" class="collapse">
+        <ul id="nav-list" class="nav navbar-nav">
+            <li class="list1 visible-xs active">
+                <span>Chicken</span>
+            </li>
+            <li class="list2">
+                <span>Beef</span>
+            </li>
+            <li class="list3">
+                <span>Sushi</span>
+            </li>
+        </ul>
 
-        <div id="beef">
-            <span id="subheading"> <h3>Beef</h3></span>
-            <span id="paragraph2">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing 
-                    elit. Sed nonummy eleifend velit, quis luctus leo 
-                    fringilla vel. Fusce pulvinar, augue nec fermentum 
-                    tincidunt, erat arcu sagittis velit, quis commodo 
-                    elit enim ac neque. Nullam hendrerit orci ut nisi 
-                    cursus, nec malesuada arcu tempor. Vivamus nec elit 
-                    eu nunc volutpat feugiat. Duis fermentum, erat quis 
-                    egestas malesuada, est quam pharetra mi, eu consequat 
-                    eros lectus nec sem. Vestibulum ante ipsum primis in 
-                    faucibus orci luctus et ultrices posuere cubilia 
-                    Curae; Pellentesque ut quam nec libero commodo aliquet 
-                    eu a nulla. Nullam eget feugiat eros.
-                </p>
-            </span>
-            </div>
-        
-        <div id="sushi">
-            <span id="subheading"> <h3>Sushi</h3></span>
-            <span id="paragraph3">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing 
-                    elit. Sed nonummy eleifend velit, quis luctus leo 
-                    fringilla vel. Fusce pulvinar, augue nec fermentum 
-                    tincidunt, erat arcu sagittis velit, quis commodo 
-                    elit enim ac neque. Nullam hendrerit orci ut nisi 
-                    cursus, nec malesuada arcu tempor. Vivamus nec elit 
-                    eu nunc volutpat feugiat. Duis fermentum, erat quis 
-                    egestas malesuada, est quam pharetra mi, eu consequat 
-                    eros lectus nec sem. Vestibulum ante ipsum primis in 
-                    faucibus orci luctus et ultrices posuere cubilia 
-                    Curae; Pellentesque ut quam nec libero commodo aliquet 
-                    eu a nulla. Nullam eget feugiat eros.
-                </p>
-            </span>
-        </div>
-    </body>
-    </html>
+    </div>
+
+    <!--Our Menu Subheading-->
+    <div>
+        <h2 class="text-center">Our Menu</h2>
+    </div>
+
+    <!--Chicken Section-->
+    <div class="chicken">
+        <h3 class="text-center">Chicken</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor ligula ac turpis viverra, nec placerat 
+            neque accumsan. Fusce vitae facilisis leo. Nulla ut felis id justo lacinia convallis. Vestibulum a dolor 
+            ultrices, venenatis justo id, ultricies elit. Nunc dictum tristique dui, vel dapibus velit. Curabitur at 
+            neque volutpat, vehicula arcu id, posuere erat. Vivamus a finibus lectus. Sed non nulla non purus malesuada 
+            varius. Donec nec erat a urna convallis hendrerit. Duis cursus consectetur ullamcorper. Vivamus et orci ut sapien
+            commodo varius nec at libero. Sed suscipit venenatis lorem, at suscipit turpis.</p>
+    </div>
+
+    <!--Beef Section-->
+    <div class="beef">
+        <h3 class="text-center">Beef</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor ligula ac turpis viverra, nec placerat 
+            neque accumsan. Fusce vitae facilisis leo. Nulla ut felis id justo lacinia convallis. Vestibulum a dolor 
+            ultrices, venenatis justo id, ultricies elit. Nunc dictum tristique dui, vel dapibus velit. Curabitur at 
+            neque volutpat, vehicula arcu id, posuere erat. Vivamus a finibus lectus. Sed non nulla non purus malesuada 
+            varius. Donec nec erat a urna convallis hendrerit. Duis cursus consectetur ullamcorper. Vivamus et orci ut sapien
+            commodo varius nec at libero. Sed suscipit venenatis lorem, at suscipit turpis.</p>
+    </div>
+    
+
+    <!--Sushi Section-->
+    <div class="sushi">
+        <h3 class="text-center">Sushi</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor ligula ac turpis viverra, nec placerat 
+            neque accumsan. Fusce vitae facilisis leo. Nulla ut felis id justo lacinia convallis. Vestibulum a dolor 
+            ultrices, venenatis justo id, ultricies elit. Nunc dictum tristique dui, vel dapibus velit. Curabitur at 
+            neque volutpat, vehicula arcu id, posuere erat. Vivamus a finibus lectus. Sed non nulla non purus malesuada 
+            varius. Donec nec erat a urna convallis hendrerit. Duis cursus consectetur ullamcorper. Vivamus et orci ut sapien
+            commodo varius nec at libero. Sed suscipit venenatis lorem, at suscipit turpis.</p>
+    </div>
+    <!--Java Script Files-->
+    <script src="bootstrap.min.js">
+    </script>
+</body>
+</html>
