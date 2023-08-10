@@ -46,14 +46,21 @@
     }
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .chicken, .beef {
         width: 45%;
     }
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .sushi {
         width: 95%;
+    }
+}
+
+@media (max-width: 600px) {
+    .chicken, .beef, .sushi {
+        width: 95%;
+        padding: 15px;
     }
 }
