@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajax Test</title>
+    <script src="ajax-utils.js"></script>
+</head>
+<body>
+    <script>
+        // Your ajaxUtils code here
+
+        // Define a response handler function
+        function handleResponse(data) {
+            console.log("Received data:", data);
+        }
+
+        // Call the sendGetRequest function
+        $ajaxUtils.sendGetRequest(
+            "https://jsonplaceholder.typicode.com/posts/1", // Example URL
+            handleResponse,
+            false // Assuming the response is JSON
+        );
+    </script>
+</body>
+</html>
